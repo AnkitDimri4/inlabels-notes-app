@@ -1,13 +1,12 @@
 
----
 
-
-> # InLabels Notes App
-> Minimal notes app built with SvelteKit and TypeScript, featuring CRUD, search, pagination, dark mode, keyboard shortcuts, and offline-aware UI.
-> This notes app was built as part of the **Frontend Engineer Intern** hiring process for **InLabels**.
-> - ### Live app: https://inlabels-notes-app.vercel.app  
-> - Tech stack: SvelteKit · TypeScript · Tailwind CSS · MockAPI · Vercel
->   <img width="1000" height="1041" alt="image" src="https://github.com/user-attachments/assets/bd2f068e-fa69-4103-b0b1-1ac21be04286" />
+b69ca9421649cc83f625c58547628923a551e7bb5ea17775b5603d2875108f9a
+# InLabels Notes App
+Minimal notes app built with SvelteKit and TypeScript, featuring CRUD, search, pagination, dark mode, keyboard shortcuts, and offline-aware UI.
+This notes app was built as part of the **Frontend Engineer Intern** hiring process for **InLabels**.
+- ### Live app: https://inlabels-notes-app.vercel.app  
+- Tech stack: SvelteKit · TypeScript · Tailwind CSS · MockAPI · Vercel
+   <img width="1000" height="1041" alt="image" src="https://github.com/user-attachments/assets/bd2f068e-fa69-4103-b0b1-1ac21be04286" />
 
 
 ---
