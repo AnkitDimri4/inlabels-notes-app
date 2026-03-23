@@ -8,6 +8,7 @@ This notes app was built as part of the **Frontend Engineer Intern** hiring proc
 - Tech stack: SvelteKit · TypeScript · Tailwind CSS · MockAPI · Vercel
    <img width="1000" height="1041" alt="image" src="https://github.com/user-attachments/assets/bd2f068e-fa69-4103-b0b1-1ac21be04286" />
 
+> First line is the SHA-256 hash of my GitHub username (`AnkitDimri4`), per assignment instructions.
 
 ---
 
@@ -180,6 +181,12 @@ Frontend / Full‑Stack Developer
   <img src="https://img.shields.io/badge/Build-Vite-646CFF?logo=vite" alt="Vite" />
   <img src="https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel" alt="Vercel" />
 </p>
+
+---
+
+## Reflection
+
+I approached this assignment by first building the core CRUD flow against MockAPI, then layering in UX features like search, sorting, pagination, dark mode, and keyboard shortcuts to keep the app fast and easy to use. For offline behaviour, I focused on keeping existing notes readable when the network is lost and clearly blocking new writes with an “You are offline. Please reconnect to create notes.” message instead of silently failing. A conscious trade-off was not implementing a full offline sync queue and conflict resolution system due to time, and instead shipping a lighter “offline-aware” UX with optimistic updates when online. Besides the default SvelteKit stack, I only added tooling/styling dependencies that improved developer experience while keeping the bundle small. My chosen “own feature” is the keyboard shortcuts combined with polished empty and loading states to make power usage smoother. With more time, I would add pinning, labels, and a more robust offline sync strategy with retries and a visual history of pending changes.
 
 ---
 
