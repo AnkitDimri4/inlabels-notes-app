@@ -26,7 +26,14 @@
   function handleSubmit(event: SubmitEvent) {
     event.preventDefault();
     if (!title.trim() || !content.trim()) return;
+
     onSubmit({ title: title.trim(), content: content.trim() });
+
+    // Clear only for create mode (no initial values)
+    if (!initialTitle && !initialContent) {
+      title = '';
+      content = '';
+    }
   }
 </script>
 
